@@ -7,7 +7,7 @@ import BlogDetail from './pages/BlogDetail/BlogDetail'
 
 function App() {
   const [userId, setUserId] = useState(0)
-  const [isLogin, setIsLogin] = useState(true)
+  const [isLogin, setIsLogin] = useState(false)
 
   // console.log(data)
   return (
