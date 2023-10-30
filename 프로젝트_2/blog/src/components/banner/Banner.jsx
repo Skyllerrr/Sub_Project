@@ -1,15 +1,16 @@
 import { useState, useEffect, React } from 'react'
 import axios from 'axios'
+import './Banner.css'
 
 export default function Banner() {
   const [bloginfo, setBlogInfo] = useState(undefined)
 
   useEffect(() => {
-    axios.get('http://localhost:3001/blog').then((json) => {
+    axios.get('http://localhost:3000/blog').then((json) => {
       setBlogInfo(json.data)
     })
       .catch((e) => {
-      setBlogInfo(null)
+      setBlogInfo()
     })
   }, [])
   // console.log(bloginfo)

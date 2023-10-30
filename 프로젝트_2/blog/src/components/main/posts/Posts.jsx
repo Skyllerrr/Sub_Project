@@ -1,7 +1,37 @@
 import React from 'react'
+import './Posts.css'
+import { Link } from 'react-router-dom'
+import Author from '../author/Author'
+import Category from '../category/Category'
 
-export default function Posts() {
+export default function Posts({posts}) {
   return (
-    <div>Posts</div>
+    <>
+      {posts.map(post => 
+        <li key={post.id}>
+          <Link to={`/post/${post.id}`} className="post">
+            <article>
+              <img src={post.thumbnail} alt="" />
+              <div className="contents-wrap">
+                
+                <Category category={post.category}/>
+              
+                <h3>{post.title}</h3>
+
+                <Author
+                  userName={post.userName}
+                  profileImg={post.profileImg}
+                  created={post.created}
+                />
+
+                <p className="post-description">
+                  {post.contents[0].text}
+                </p>
+              </div>
+            </article>
+          </Link>
+        </li>
+      )}
+    </>
   )
 }

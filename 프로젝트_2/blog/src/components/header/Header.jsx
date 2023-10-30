@@ -4,6 +4,7 @@ import Login from './login/Login'
 import Logout from './logout/Logout'
 import imgLogo from '../../assets/Logo.svg'
 import UserContext from '../../context/UserContext'
+import './Header.css'
 
 export default function Header() {
   const { isLogin } = useContext(UserContext)

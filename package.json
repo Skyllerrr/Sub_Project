@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.6",
+    "react-router-dom": "^6.16.0",
+    "styled-components": "^6.1.0"
+  }
+}

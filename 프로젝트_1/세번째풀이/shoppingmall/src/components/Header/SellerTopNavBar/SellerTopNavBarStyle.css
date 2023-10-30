@@ -1,0 +1,53 @@
+.main-input {
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 30px;
+  border-color: greenyellow;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.main-input:active {
+  border-color: greenyellow;
+}
+
+.mypage {
+  position: absolute;
+  top: 1rem;
+  right: 15rem;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: greenyellow;
+  color: black;
+}
+
+.seller-center {
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-color: white;
+}
+
+.seller-logo {
+  
+}
+

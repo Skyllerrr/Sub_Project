@@ -1,0 +1,50 @@
+.hodudu {
+  width: 300px;
+}
+
+.main-input {
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 30px;
+  border-color: greenyellow;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.main-input:active {
+  border-color: greenyellow;
+}
+
+.sub-cart {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  left: 80rem;
+  bottom: 57rem;
+  text-align: center;
+}
+
+.sub-mypage {
+  position: relative;
+  left: 55rem;
+  top: -7.35rem;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: greenyellow;
+}
+
+.cart-image, .cart-logo, .mypage-image, .mypage-logo {
+  
+}
+

@@ -4,10 +4,11 @@ import UserContext from "./context/UserContext";
 import Home from './pages/Home/Home'
 import BlogDetail from './pages/BlogDetail/BlogDetail'
 // import data from './database/data.json'
+import './App.css'
 
 function App() {
-  const [userId, setUserId] = useState(0)
-  const [isLogin, setIsLogin] = useState(false)
+  const [userId, setUserId] = useState(1)
+  const [isLogin, setIsLogin] = useState(true)
 
   // console.log(data)
   return (
